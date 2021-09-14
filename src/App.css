@@ -25,6 +25,16 @@
     margin:auto;
     text-align:left;
     width:90%;
+    padding: 0px 0px 100px 0px;
+}
+
+.footer{
+    margin:auto;
+    text-align:left;
+    width:100%;
+    padding: 5%;
+    color:white;
+    background-color:#3a3b3c;
 }
 
 .title{
