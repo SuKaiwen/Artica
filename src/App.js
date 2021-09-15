@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import Cart from './Components/Cart';
 import Products from './Components/Products';
 import Footer from './Components/Footer';
+import AboutUs from './Components/AboutUs';
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
@@ -16,6 +17,9 @@ function App() {
           <Switch>
             <Route path="/cart">
                 <Cart />
+            </Route>
+            <Route path="/aboutus">
+                <AboutUs />
             </Route>
             <Route path="/products">
                 <Products />

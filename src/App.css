@@ -11,6 +11,13 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border: 1px solid  #3a3b3c;
+}
+
+.button:hover{
+    border: 1px solid #3a3b3c;
+    background-color:white;
+    color:  #3a3b3c;
 }
 
 .header{
@@ -19,6 +26,16 @@
     padding:30px 0px 30px 0px;
     width:90%;
     margin:auto;
+}
+
+.link{
+    color:black;
+    transition: transform .2s;
+}
+
+.link:hover{
+    color:black;
+    transform:scale(1.2);
 }
 
 .home{
