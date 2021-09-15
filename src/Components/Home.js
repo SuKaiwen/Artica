@@ -16,8 +16,6 @@ function Home() {
       <img className="imageFull" src={home} alt="room" />
       <div className="title">Our work</div>
       <p className="content">Our practice spans from years of interior design of existing buildings to the complete planning and design of new apartments and public spaces. While our work is aesthetically diverse, our projects are linked by a focus on enhancing human relationships through interior comfort and furniture.</p>
-      <img className="imageFull" src={mainroom} alt="room" />
-      <p>Masterfully Crafted Furniture and Experienced Designers</p>
       <div className="row">
         <div className="col-sm">
             <img className="imageFull" src={livingRoom} alt="room" />
