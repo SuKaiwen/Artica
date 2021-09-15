@@ -1,6 +1,6 @@
 function AboutUs() {
   return (
-    <div className="home">
+    <div className="aboutus">
         <div className="row">
             <div className="col-sm-5">
                 <h1>About Us</h1>
