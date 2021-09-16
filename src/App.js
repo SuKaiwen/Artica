@@ -7,22 +7,26 @@ import Products from './Components/Products';
 import Footer from './Components/Footer';
 import AboutUs from './Components/AboutUs';
 
+import React, {useState, useEffect} from 'react';
+
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
+  const[cart, setCart] = useState([]);
+
   return (
     <Router>
         <div className="App">
-          <Header />
+          <Header cart = {cart}/>
           <Switch>
             <Route path="/cart">
-                <Cart />
+                <Cart cart = {cart} setCart = {setCart}/>
             </Route>
             <Route path="/aboutus">
                 <AboutUs />
             </Route>
             <Route path="/products">
-                <Products />
+                <Products cart = {cart} setCart = {setCart}/>
             </Route>
             <Route path="/">
                 <Home />
