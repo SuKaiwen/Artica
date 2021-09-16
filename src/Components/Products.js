@@ -4,13 +4,24 @@ import products3 from '../images/products3.jpg';
 import products4 from '../images/products4.jpg';
 import products5 from '../images/products5.jpg';
 
+const products = [
+    {
+        name:"Woodland Collection"
+    }
+]
+
 function Products() {
   return (
     <div className="home">
       <div className="title">Our Products</div>
 
       <div className="row p-0">
-        <img src={products1} className="imageFull" alt="p1" />
+        <div class="img__wrap">
+          <img src={products1} className="imageFull img__img" alt="p1"  />
+          <p class="img__description">Oak Woodland Collection ($399)
+            <button className="buttonInvert">Purchase</button>
+          </p>
+        </div>
         <div className="col-sm-6 p-0">
             <img src={products2} className="imageFull" alt="p2" />
         </div>
