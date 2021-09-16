@@ -6,8 +6,33 @@ import products5 from '../images/products5.jpg';
 
 const products = [
     {
-        name:"Woodland Collection"
-    }
+        id: 2,
+        name:"Concrete Black Chair",
+        price:199,
+        desc: "Comfortable chair crafted from sturdy mahogany base and ergonomically designed black plastic rest.",
+        src: `${products2}`,
+    },
+    {
+        id: 3,
+        name:"Gray Cushion Chair",
+        price:299,
+        desc: "Comfortable core consisting of the softest mattress all securely placed on a strong mahogany base.",
+        src: `${products3}`,
+    },
+    {
+        id: 4,
+        name:"Elegant White Chair",
+        price:599,
+        desc: "Soft mattress combined with light feathers all fashioned into an elegant resting chair perfect for any home.",
+        src: `${products4}`,
+    },
+    {
+        id: 5,
+        name:"Gray Cushion Rotator",
+        price:399,
+        desc: "Supported by a strong mahogony base, this chair fashioned from a comfortable mattress is perfect for any office.",
+        src: `${products5}`,
+    },
 ]
 
 function Products() {
@@ -22,19 +47,17 @@ function Products() {
             <button className="buttonInvert">Purchase</button>
           </p>
         </div>
-        <div className="col-sm-6 p-0">
-            <img src={products2} className="imageFull" alt="p2" />
-        </div>
-        <div className="col-sm-6 p-0">
-            <img src={products3} className="imageFull" alt="p3" />
-        </div>
-        <div className="w-100"></div>
-        <div className="col-sm-6 p-0">
-            <img src={products4} className="imageFull" alt="p4" />
-        </div>
-        <div className="col-sm-6 p-0">
-            <img src={products5} className="imageFull" alt="p5" />
-        </div>
+        {products.map((x) => {
+            return (<div className="col-sm-6 p-0">
+                <div class="img__wrap">
+                  <img src={x.src} className="imageFull img__img" alt="p1"  />
+                  <p class="img__description">{x.name} | ${x.price}
+                    <button className="buttonInvert">Purchase</button>
+                  </p>
+                </div>
+            </div>
+            );
+        })}
       </div>
     </div>
   );
