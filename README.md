@@ -20,6 +20,12 @@ Products page: features card on hover effect for more information and a purchase
 
 ![image](https://user-images.githubusercontent.com/56058518/133710509-ebe30866-ea32-49c8-8c9f-a52d98e9a3b0.png)
 
+Cart page: takes data from an object array and parses through it to display the cart, you can also add and remove quantities of items.
+
+![image](https://user-images.githubusercontent.com/56058518/133710667-eb4c1bc8-e3ed-4e27-8c4c-e0a4e8e1203a.png)
+
+![image](https://user-images.githubusercontent.com/56058518/133710700-03d9d840-61c6-470c-a993-7f4033e7c451.png)
+
 About us page: 
 
 ![image](https://user-images.githubusercontent.com/56058518/133710572-337d7111-1e99-4c48-82b7-134d1ae311c8.png)
