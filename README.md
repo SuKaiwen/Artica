@@ -20,4 +20,9 @@ Products page: features card on hover effect for more information and a purchase
 
 ![image](https://user-images.githubusercontent.com/56058518/133710509-ebe30866-ea32-49c8-8c9f-a52d98e9a3b0.png)
 
+About us page: 
+
+![image](https://user-images.githubusercontent.com/56058518/133710572-337d7111-1e99-4c48-82b7-134d1ae311c8.png)
+
+
 
